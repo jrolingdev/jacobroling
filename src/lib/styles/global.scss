@@ -1,23 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:where(h2, h3, h4, h5, h6) {
-	.icon-link {
-		position: relative;
+* {
+	@apply text-neutral-dark dark:text-neutral-light transition-colors duration-200 ease-in-out;
+}
 
-		&::before {
-			content: '#';
-			position: absolute;
-			left: -1ch;
-			top: 0;
-			line-height: 1;
-			opacity: 0;
-			text-decoration: underline;
-		}
-	}
-
-	&:hover .icon-link::before {
-		opacity: 1;
-	}
+body {
+	@apply bg-neutral-light dark:bg-neutral-dark;
 }

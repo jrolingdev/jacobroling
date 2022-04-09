@@ -15,20 +15,33 @@
 	import { fade } from 'svelte/transition';
 	import { prefetch } from '$app/navigation';
 	import { onMount } from 'svelte';
+	import { darkMode } from '$lib/data/store';
+	import Navbar from '$lib/components/Navbar.svelte';
 
 	onMount(() => {
+		const localDarkMode = localStorage.getItem('darkMode');
+
+		if (localDarkMode) {
+			darkMode.set(true);
+			document.querySelector('html').classList.add('dark');
+		}
+
 		prefetch('/blog');
 	});
 
 	export let currentRoute;
 </script>
 
-<header>Hi, I'm a header</header>
+<header>
+	<Navbar />
+</header>
 
-{#key currentRoute}
-	<main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-		<slot />
-	</main>
-{/key}
+<div>
+	{#key currentRoute}
+		<main in:fade={{ duration: 200, delay: 200 }} out:fade={{ duration: 200 }}>
+			<slot />
+		</main>
+	{/key}
+</div>
 
-<footer>Hello, I'm the footer.</footer>
+<!-- <footer>Hello, I'm the footer.</footer> -->
