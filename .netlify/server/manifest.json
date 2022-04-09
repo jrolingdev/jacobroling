@@ -1,0 +1,127 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/blog/rss.ts": {
+    "file": "entries/endpoints/blog/rss.ts.js",
+    "src": "src/routes/blog/rss.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/blog/10 Best ETFs in Australia 2022.md"
+    ]
+  },
+  "src/routes/api/posts.ts": {
+    "file": "entries/endpoints/api/posts.ts.js",
+    "src": "src/routes/api/posts.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/blog/10 Best ETFs in Australia 2022.md"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js",
+      "_Icon-d59343c0.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-380d7d20.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js"
+    ]
+  },
+  "src/routes/blog/10 Best ETFs in Australia 2022.md": {
+    "file": "entries/pages/blog/10 Best ETFs in Australia 2022.md.js",
+    "src": "src/routes/blog/10 Best ETFs in Australia 2022.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-a69eba8f.js",
+      "_AspectRatio-81ceb655.js"
+    ],
+    "css": [
+      "assets/entries/pages/blog/10 Best ETFs in Australia 2022.md-b7c88427.css"
+    ]
+  },
+  "src/routes/blog/index.svelte": {
+    "file": "entries/pages/blog/index.svelte.js",
+    "src": "src/routes/blog/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js",
+      "_AspectRatio-81ceb655.js"
+    ]
+  },
+  "src/routes/blog/tags/[tag].svelte": {
+    "file": "entries/pages/blog/tags/_tag_.svelte.js",
+    "src": "src/routes/blog/tags/[tag].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js",
+      "_AspectRatio-81ceb655.js"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "entries/pages/contact.svelte.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js",
+      "_Icon-d59343c0.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js",
+      "_Icon-d59343c0.js",
+      "_AspectRatio-81ceb655.js"
+    ]
+  },
+  "src/routes/projects.svelte": {
+    "file": "entries/pages/projects.svelte.js",
+    "src": "src/routes/projects.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a69eba8f.js"
+    ]
+  },
+  "_index-a69eba8f.js": {
+    "file": "chunks/index-a69eba8f.js"
+  },
+  "_Icon-d59343c0.js": {
+    "file": "chunks/Icon-d59343c0.js",
+    "imports": [
+      "_index-a69eba8f.js"
+    ]
+  },
+  "_AspectRatio-81ceb655.js": {
+    "file": "chunks/AspectRatio-81ceb655.js",
+    "imports": [
+      "_index-a69eba8f.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
