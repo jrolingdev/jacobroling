@@ -55,7 +55,7 @@
 <article class="mx-6 md:mx-auto max-w-screen-md">
 	<div class="my-16">
 		<AspectRatio ratio={16 / 9}>
-			<img class="w-full h-full object-cover object-center" src={image} alt={title} />
+			<img class="w-full h-full" src={image} alt={title} />
 		</AspectRatio>
 		<h1>{title}</h1>
 		<div class="pt-2 border-t-2 w-max border-neutral-900">
@@ -68,13 +68,13 @@
 </article>
 
 <div
-	class="my-16 py-16 grid grid-cols-3 mx-6 md:mx-auto max-w-screen-md border-y-2 border-neutral-dark dark:border-neutral-light"
+	class="my-16 py-16 grid md:grid-cols-3 gap-16 mx-6 md:mx-auto max-w-screen-md border-y-2 border-neutral-dark dark:border-neutral-light"
 >
-	<div class="flex items-center w-32 h-32 rounded-full overflow-hidden mx-auto">
+	<div class="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden mx-auto">
 		<AspectRatio ratio={1}>
 			<img
 				class="w-full h-full object-cover object-center"
-				src="/images/placeholder.png"
+				src="https://www.gravatar.com/avatar/6814e1c75197390a4832443e1fd0d63a?s=200"
 				alt="Jacob Roling"
 			/>
 		</AspectRatio>

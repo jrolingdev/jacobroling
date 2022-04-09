@@ -41,8 +41,8 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 const siteURL = "https://jacobroling.com";
-const siteTitle = "Jacob Roling - Blog";
-const siteDescription = "I am Jacob Roling.";
+const siteTitle = "Blog - Jacob Roling";
+const siteDescription = "Jacob Roling";
 const get = async () => {
   const posts = await Promise.all(Object.entries({ "./10 Best ETFs in Australia 2022.md": () => Promise.resolve().then(() => __toESM(require("../../pages/blog/10 Best ETFs in Australia 2022.md.js"))) }).map(async ([path, resolver]) => {
     const { metadata } = await resolver();

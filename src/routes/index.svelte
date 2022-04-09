@@ -18,11 +18,13 @@
 					through the web.
 				</p>
 			</div>
-			<div class="order-first md:order-last">
+			<div
+				class="mx-auto order-first md:order-last w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden"
+			>
 				<AspectRatio ratio={1}>
 					<img
 						class="w-full h-full object-cover object-center"
-						src="/images/placeholder.png"
+						src="https://www.gravatar.com/avatar/6814e1c75197390a4832443e1fd0d63a?s=200"
 						alt="Jacob Roling"
 					/>
 				</AspectRatio>
