@@ -1,6 +1,6 @@
-const siteURL = import.meta.env.VITE_SITE_URL;
-const siteTitle = import.meta.env.VITE_BLOG_TITLE;
-const siteDescription = import.meta.env.VITE_BLOG_DESCRIPTION;
+const siteURL = 'https://jacobroling.com';
+const siteTitle = 'Blog - Jacob Roling';
+const siteDescription = 'Jacob Roling';
 
 export const get = async () => {
 	const posts = await Promise.all(
