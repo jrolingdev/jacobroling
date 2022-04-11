@@ -74,7 +74,7 @@
 		<AspectRatio ratio={1}>
 			<img
 				class="w-full h-full object-cover object-center"
-				src="https://www.gravatar.com/avatar/6814e1c75197390a4832443e1fd0d63a?s=200"
+				src="https://www.gravatar.com/avatar/6814e1c75197390a4832443e1fd0d63a?s=500"
 				alt="Jacob Roling"
 			/>
 		</AspectRatio>
