@@ -44,7 +44,7 @@
 				<div class="mt-4">
 					{#each tags as tag}
 						<a
-							class="mr-1 px-2 py-1 font-medium bg-primary text-neutral-light dark:text-neutral-dark"
+							class="mr-1 px-2 py-1 font-medium bg-primary bg-opacity-30"
 							href={`/blog/tags/${tag}`}>{tag}</a
 						>
 					{/each}

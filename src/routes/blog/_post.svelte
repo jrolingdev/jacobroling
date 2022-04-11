@@ -88,12 +88,11 @@
 </div>
 
 <div class="my-16 mx-6 md:mx-auto max-w-screen-md">
-	<div class="text-3xl font-bold">You might like...</div>
+	<div class="text-3xl font-bold">You might also like...</div>
 	<div class="mt-8">
 		{#each tags as tag}
-			<a
-				class="mr-1 px-2 py-1 font-medium bg-primary text-neutral-light dark:text-neutral-dark"
-				href={`/blog/tags/${tag}`}>{tag}</a
+			<a class="mr-1 px-2 py-1 font-medium bg-primary bg-opacity-30" href={`/blog/tags/${tag}`}
+				>{tag}</a
 			>
 		{/each}
 	</div>

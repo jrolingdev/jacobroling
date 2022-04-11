@@ -26,7 +26,7 @@ __export(stdin_exports, {
   module: () => module2
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/blog/10 Best ETFs in Australia 2022.md.js"));
-const entry = "pages/blog/10 Best ETFs in Australia 2022.md-f7821277.js";
-const js = ["pages/blog/10 Best ETFs in Australia 2022.md-f7821277.js", "chunks/index-6dc056d7.js", "chunks/AspectRatio-e00b182f.js"];
-const css = ["assets/pages/blog/10 Best ETFs in Australia 2022.md-12307513.css"];
+var module2 = __toESM(require("../entries/pages/blog/Top 3 ETFs on the ASX 2022.md.js"));
+const entry = "pages/blog/Top 3 ETFs on the ASX 2022.md-01603484.js";
+const js = ["pages/blog/Top 3 ETFs on the ASX 2022.md-01603484.js", "chunks/index-6dc056d7.js", "chunks/AspectRatio-e00b182f.js"];
+const css = ["assets/pages/blog/Top 3 ETFs on the ASX 2022.md-b3edd7bc.css"];

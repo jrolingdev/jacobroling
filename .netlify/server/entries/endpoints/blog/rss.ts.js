@@ -44,7 +44,7 @@ const siteURL = "https://jacobroling.com";
 const siteTitle = "Blog - Jacob Roling";
 const siteDescription = "Jacob Roling";
 const get = async () => {
-  const posts = await Promise.all(Object.entries({ "./10 Best ETFs in Australia 2022.md": () => Promise.resolve().then(() => __toESM(require("../../pages/blog/10 Best ETFs in Australia 2022.md.js"))) }).map(async ([path, resolver]) => {
+  const posts = await Promise.all(Object.entries({ "./Top 3 ETFs on the ASX 2022.md": () => Promise.resolve().then(() => __toESM(require("../../pages/blog/Top 3 ETFs on the ASX 2022.md.js"))) }).map(async ([path, resolver]) => {
     const { metadata } = await resolver();
     const slug = path.slice(2, -3);
     return __spreadProps(__spreadValues({}, metadata), { slug });

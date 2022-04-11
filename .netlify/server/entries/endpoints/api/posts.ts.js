@@ -24,7 +24,7 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 async function get() {
-  const postFiles = { "../blog/10 Best ETFs in Australia 2022.md": () => Promise.resolve().then(() => __toESM(require("../../pages/blog/10 Best ETFs in Australia 2022.md.js"))) };
+  const postFiles = { "../blog/Top 3 ETFs on the ASX 2022.md": () => Promise.resolve().then(() => __toESM(require("../../pages/blog/Top 3 ETFs on the ASX 2022.md.js"))) };
   const postFilesEntries = Object.entries(postFiles);
   const posts = await Promise.all(postFilesEntries.map(async ([path, resolver]) => {
     const { metadata } = await resolver();

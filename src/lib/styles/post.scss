@@ -1,4 +1,8 @@
 article {
+	a {
+		@apply underline decoration-2 decoration-primary;
+	}
+
 	h1 {
 		@apply my-12;
 		@apply font-bold;
@@ -7,8 +11,7 @@ article {
 
 	h2 {
 		@apply relative;
-		@apply mt-12;
-		@apply mb-6;
+		@apply my-16;
 		@apply text-3xl md:text-5xl;
 		@apply font-bold;
 
@@ -39,7 +42,67 @@ article {
 		}
 	}
 
-	:where(h2, h3, h4, h5, h6) {
+	table {
+		@apply mb-6;
+		@apply text-lg md:text-xl;
+		@apply leading-8;
+		@apply w-full;
+
+		th {
+			@apply text-left;
+		}
+	}
+
+	ol {
+		@apply text-lg md:text-xl;
+		@apply mb-6;
+	}
+
+	ul {
+		@apply text-lg md:text-xl;
+		@apply mb-6;
+		@apply list-disc;
+		@apply list-inside;
+		@apply leading-8;
+	}
+
+	blockquote {
+		@apply relative;
+		@apply mb-6;
+		@apply leading-8;
+		@apply bg-primary;
+		@apply bg-opacity-10;
+		@apply py-2;
+		@apply px-6;
+
+		&::before {
+			content: ' ';
+			@apply absolute;
+			@apply w-2;
+			@apply h-full;
+			@apply top-0;
+			@apply left-0;
+			@apply bg-primary;
+			@apply bg-opacity-20;
+		}
+
+		p {
+			&:first-of-type {
+				&::first-letter {
+					@apply text-lg md:text-xl;
+					@apply font-normal;
+					@apply float-none;
+					@apply m-0;
+				}
+			}
+		}
+	}
+
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		.icon-link {
 			@apply relative;
 

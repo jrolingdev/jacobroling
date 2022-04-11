@@ -15,7 +15,7 @@
     "src": "src/routes/blog/rss.ts",
     "isEntry": true,
     "dynamicImports": [
-      "src/routes/blog/10 Best ETFs in Australia 2022.md"
+      "src/routes/blog/Top 3 ETFs on the ASX 2022.md"
     ]
   },
   "src/routes/api/posts.ts": {
@@ -23,7 +23,7 @@
     "src": "src/routes/api/posts.ts",
     "isEntry": true,
     "dynamicImports": [
-      "src/routes/blog/10 Best ETFs in Australia 2022.md"
+      "src/routes/blog/Top 3 ETFs on the ASX 2022.md"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -35,7 +35,7 @@
       "_Icon-d59343c0.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-380d7d20.css"
+      "assets/entries/pages/__layout.svelte-9f7e79cb.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -46,9 +46,9 @@
       "_index-a69eba8f.js"
     ]
   },
-  "src/routes/blog/10 Best ETFs in Australia 2022.md": {
-    "file": "entries/pages/blog/10 Best ETFs in Australia 2022.md.js",
-    "src": "src/routes/blog/10 Best ETFs in Australia 2022.md",
+  "src/routes/blog/Top 3 ETFs on the ASX 2022.md": {
+    "file": "entries/pages/blog/Top 3 ETFs on the ASX 2022.md.js",
+    "src": "src/routes/blog/Top 3 ETFs on the ASX 2022.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -56,7 +56,7 @@
       "_AspectRatio-81ceb655.js"
     ],
     "css": [
-      "assets/entries/pages/blog/10 Best ETFs in Australia 2022.md-b7c88427.css"
+      "assets/entries/pages/blog/Top 3 ETFs on the ASX 2022.md-4d95a4fb.css"
     ]
   },
   "src/routes/blog/index.svelte": {

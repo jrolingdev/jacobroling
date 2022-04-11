@@ -86,9 +86,9 @@ const Routes = (0, import_index_a69eba8f.c)(($$result, $$props, $$bindings, slot
 		<div class="${"mt-8 grid md:grid-cols-2 gap-8"}"><div><p class="${"mt-8 text-xl md:text-3xl md:font-bold"}">I&#39;m a web developer. I take designs or ideas and turn them into experiences delivered
 					through the web.
 				</p></div>
-			<div class="${"order-first md:order-last"}">${(0, import_index_a69eba8f.v)(import_AspectRatio_81ceb655.A, "AspectRatio").$$render($$result, { ratio: 1 }, {}, {
+			<div class="${"mx-auto order-first md:order-last w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden"}">${(0, import_index_a69eba8f.v)(import_AspectRatio_81ceb655.A, "AspectRatio").$$render($$result, { ratio: 1 }, {}, {
     default: () => {
-      return `<img class="${"w-full h-full object-cover object-center"}" src="${"/images/placeholder.png"}" alt="${"Jacob Roling"}">`;
+      return `<img class="${"w-full h-full object-cover object-center"}" src="${"https://www.gravatar.com/avatar/6814e1c75197390a4832443e1fd0d63a?s=200"}" alt="${"Jacob Roling"}">`;
     }
   })}</div></div>
 		<p class="${"mt-8 text-xl"}">I develop for all platforms and devices whether that means building beautiful, responsive,

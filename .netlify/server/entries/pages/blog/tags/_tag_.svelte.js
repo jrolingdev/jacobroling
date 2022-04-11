@@ -50,7 +50,7 @@ const U5Btagu5D = (0, import_index_a69eba8f.c)(($$result, $$props, $$bindings, s
 				<p class="${"mt-4 italic"}">${(0, import_index_a69eba8f.f)(description)}</p>
 				<a class="${"inline-block mt-4 decoration-2 decoration-primary font-medium hover:underline"}"${(0, import_index_a69eba8f.d)("href", path, 0)}>Read more</a>
 				<div class="${"mt-4"}">${(0, import_index_a69eba8f.e)(tags, (tag) => {
-      return `<a class="${"mr-1 px-2 py-1 font-medium bg-primary text-neutral-light dark:text-neutral-dark"}"${(0, import_index_a69eba8f.d)("href", `/blog/tags/${tag}`, 0)}>${(0, import_index_a69eba8f.f)(tag)}</a>`;
+      return `<a class="${"mr-1 px-2 py-1 font-medium bg-primary bg-opacity-30"}"${(0, import_index_a69eba8f.d)("href", `/blog/tags/${tag}`, 0)}>${(0, import_index_a69eba8f.f)(tag)}</a>`;
     })}
 				</div></div>
 		</li>`;
