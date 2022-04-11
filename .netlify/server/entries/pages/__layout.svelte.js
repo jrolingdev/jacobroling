@@ -97,10 +97,15 @@ const load = ({ url }) => {
   return { props: { currentRoute } };
 };
 const _layout = (0, import_index_a69eba8f.c)(($$result, $$props, $$bindings, slots) => {
+  let $darkMode, $$unsubscribe_darkMode;
+  $$unsubscribe_darkMode = (0, import_index_a69eba8f.b)(darkMode, (value) => $darkMode = value);
   let { currentRoute } = $$props;
   if ($$props.currentRoute === void 0 && $$bindings.currentRoute && currentRoute !== void 0)
     $$bindings.currentRoute(currentRoute);
-  return `<header>${(0, import_index_a69eba8f.v)(Navbar, "Navbar").$$render($$result, {}, {}, {})}</header>
+  $$unsubscribe_darkMode();
+  return `${$$result.head += `<meta name="${"theme-color"}"${(0, import_index_a69eba8f.d)("content", $darkMode ? "#000000" : "#ffffff", 0)} data-svelte="svelte-17f4f26">`, ""}
+
+<header>${(0, import_index_a69eba8f.v)(Navbar, "Navbar").$$render($$result, {}, {}, {})}</header>
 
 <div><main>${slots.default ? slots.default({}) : ``}</main></div>
 

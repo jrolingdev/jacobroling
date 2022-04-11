@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-	import { darkMode } from '$lib/data/store';
 	import { slide } from 'svelte/transition';
+	import { darkMode } from '$lib/data/store';
 
 	const links = [
 		{
@@ -22,12 +22,15 @@
 
 	function toggleDarkMode() {
 		darkMode.set(!$darkMode);
-		document.querySelector('html').classList.toggle('dark');
 
 		if ($darkMode) {
-			localStorage.setItem('darkMode', 'true');
+			localStorage.theme = 'dark';
+			document.documentElement.classList.add('dark');
+			document.documentElement.setAttribute('data-theme', 'dark');
 		} else {
-			localStorage.removeItem('darkMode');
+			localStorage.theme = 'light';
+			document.documentElement.classList.remove('dark');
+			document.documentElement.setAttribute('data-theme', 'light');
 		}
 	}
 

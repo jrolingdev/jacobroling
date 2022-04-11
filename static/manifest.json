@@ -1,7 +1,6 @@
 {
-	"short_name": "Jacob Roling",
 	"name": "Jacob Roling",
-	"start_url": "/",
+	"short_name": "Jacob Roling",
 	"icons": [
 		{
 			"src": "assets/manifest-icon-192.maskable.png",
@@ -28,9 +27,13 @@
 			"purpose": "maskable"
 		}
 	],
-	"background_color": "white",
+	"gcm_sender_id": "",
+	"gcm_user_visible_only": true,
+	"start_url": "/?utm_source=homescreen",
+	"permissions": ["gcm"],
+	"scope": "",
+	"orientation": "portrait",
 	"display": "standalone",
-	"scope": "/",
-	"theme_color": "#06B6D4",
-	"description": "Jacob Roling"
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff"
 }

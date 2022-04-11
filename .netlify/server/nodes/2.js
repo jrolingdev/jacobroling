@@ -27,6 +27,6 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var module2 = __toESM(require("../entries/pages/blog/Top 3 ETFs on the ASX 2022.md.js"));
-const entry = "pages/blog/Top 3 ETFs on the ASX 2022.md-01603484.js";
-const js = ["pages/blog/Top 3 ETFs on the ASX 2022.md-01603484.js", "chunks/index-6dc056d7.js", "chunks/AspectRatio-e00b182f.js"];
+const entry = "pages/blog/Top 3 ETFs on the ASX 2022.md-e01242d1.js";
+const js = ["pages/blog/Top 3 ETFs on the ASX 2022.md-e01242d1.js", "chunks/index-1ba59464.js", "chunks/AspectRatio-5ae03f94.js"];
 const css = ["assets/pages/blog/Top 3 ETFs on the ASX 2022.md-b3edd7bc.css"];

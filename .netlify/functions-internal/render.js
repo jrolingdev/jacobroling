@@ -5,7 +5,7 @@ exports.handler = init({
 	assets: new Set(["assets/apple-icon-180.png","assets/apple-splash-1125-2436.jpg","assets/apple-splash-1136-640.jpg","assets/apple-splash-1170-2532.jpg","assets/apple-splash-1242-2208.jpg","assets/apple-splash-1242-2688.jpg","assets/apple-splash-1284-2778.jpg","assets/apple-splash-1334-750.jpg","assets/apple-splash-1536-2048.jpg","assets/apple-splash-1620-2160.jpg","assets/apple-splash-1668-2224.jpg","assets/apple-splash-1668-2388.jpg","assets/apple-splash-1792-828.jpg","assets/apple-splash-2048-1536.jpg","assets/apple-splash-2048-2732.jpg","assets/apple-splash-2160-1620.jpg","assets/apple-splash-2208-1242.jpg","assets/apple-splash-2224-1668.jpg","assets/apple-splash-2388-1668.jpg","assets/apple-splash-2436-1125.jpg","assets/apple-splash-2532-1170.jpg","assets/apple-splash-2688-1242.jpg","assets/apple-splash-2732-2048.jpg","assets/apple-splash-2778-1284.jpg","assets/apple-splash-640-1136.jpg","assets/apple-splash-750-1334.jpg","assets/apple-splash-828-1792.jpg","assets/manifest-icon-192.maskable.png","assets/manifest-icon-512.maskable.png","favicon.png","images/placeholder.png","manifest.json","service-worker.js"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".json":"application/json"},
 	_: {
-		entry: {"file":"start-2ea5a39e.js","js":["start-2ea5a39e.js","chunks/index-6dc056d7.js","chunks/singletons-904d6808.js"],"css":[]},
+		entry: {"file":"start-bb9d6107.js","js":["start-bb9d6107.js","chunks/index-1ba59464.js","chunks/singletons-ef0fa748.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
