@@ -23,10 +23,6 @@
 <svelte:head>
 	<title>{title}</title>
 	<link rel="canonical" href={$page.url.href} />
-	<meta
-		name="robots"
-		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-	/>
 	<meta name="description" content={description} />
 	<meta property="og:local" content="en_AU" />
 	<meta property="og:type" content="article" />
